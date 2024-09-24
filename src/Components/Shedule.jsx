@@ -11,7 +11,7 @@ const Schedule = () => {
   ];
 
   return (
-    <section id="schedule" className="py-16 bg-gray-100 flex flex-col items-center justify-center">
+    <section id="schedules" className="py-16 bg-gray-100 flex flex-col items-center justify-center">
       <h2 className="text-4xl font-bold text-center mb-8">Event Schedule</h2>
       
       <div className="container mx-auto px-4 md:px-10 lg:px-28">

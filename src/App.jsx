@@ -11,11 +11,12 @@ import Sponsors from './Components/Sponsors';
 import Contact from './Components/Contact';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Footer from './Components/Footer';
 
 
 function App() {
   return (
-    <div>
+    <div id='home'>
       <Navbar />
       <FullScreenSlider />
       <CountdownTimer date={new Date('2024-12-31T00:00:00')} />
@@ -26,6 +27,7 @@ function App() {
       <Gallery />
       <Sponsors />
       <Contact />
+      <Footer/>
     </div>
   );
 }

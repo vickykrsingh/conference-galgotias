@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-16 bg-gray-100 text-center">
+    <section id="contacts" className="py-16 bg-gray-100 text-center">
       <h2 className="text-4xl font-bold mb-8">Contact Us</h2>
       <form onSubmit={handleSubmit} className="w-2/3 mx-auto animate-fade-in">
         <div className="mb-4 transition duration-300 ease-in-out transform hover:scale-105">
