@@ -33,7 +33,7 @@ const ImageSlider = () => {
           <img
             src="/img1.jpg"
             alt="Slide 1"
-            style={{ objectFit: "cover", width: "100%", height: "100%" }}
+            style={{ objectFit: "cover", width: "100%", height: "100vh" }}
           />
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white text-center p-4">
             <h1 className="text-4xl font-bold mb-4">Innovations in Engineering</h1>
@@ -48,7 +48,7 @@ const ImageSlider = () => {
           <img
             src="/img2.jpg"
             alt="Slide 2"
-            style={{ objectFit: "cover", width: "100%", height: "100%" }}
+            style={{ objectFit: "cover", width: "100%", height: "100vh" }}
           />
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white text-center p-4">
             <h1 className="text-4xl font-bold mb-4">Sustainable Development</h1>
@@ -63,7 +63,7 @@ const ImageSlider = () => {
           <img
             src="/img3.jpg"
             alt="Slide 3"
-            style={{ objectFit: "cover", width: "100%", height: "100%" }}
+            style={{ objectFit: "cover", width: "100%", height: "100vh" }}
           />
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white text-center p-4">
             <h1 className="text-4xl font-bold mb-4">Global Perspectives</h1>

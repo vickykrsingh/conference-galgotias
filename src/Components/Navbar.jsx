@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false); // State to toggle menu open/close
+  const [isOpen, setIsOpen] = useState(false); 
 
   return (
     <nav className="sticky top-0 bg-primary text-white p-4 z-10">

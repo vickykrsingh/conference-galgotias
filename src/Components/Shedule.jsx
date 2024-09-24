@@ -11,21 +11,26 @@ const Schedule = () => {
   ];
 
   return (
-    <section id="schedule" className="py-16 bg-gray-100">
+    <section id="schedule" className="py-16 bg-gray-100 flex flex-col items-center justify-center">
       <h2 className="text-4xl font-bold text-center mb-8">Event Schedule</h2>
-      <div className="container mx-auto">
-        <table className="w-full table-auto">
+      
+      <div className="container mx-auto px-4 md:px-10 lg:px-28">
+        <table className="w-full table-auto bg-white shadow-md rounded-lg overflow-hidden">
           <thead>
-            <tr>
-              <th className="px-4 py-2 text-left">Time</th>
-              <th className="px-4 py-2 text-left">Event</th>
+            <tr className="bg-primary text-white text-left">
+              <th className="px-6 py-3">Time</th>
+              <th className="px-6 py-3">Event</th>
             </tr>
           </thead>
+
           <tbody>
             {scheduleData.map((item, index) => (
-              <tr key={index} className="border-t">
-                <td className="px-4 py-2">{item.time}</td>
-                <td className="px-4 py-2">{item.event}</td>
+              <tr
+                key={index}
+                className="border-t transition-colors duration-300 hover:bg-secondary hover:text-white"
+              >
+                <td className="px-6 py-3">{item.time}</td>
+                <td className="px-6 py-3">{item.event}</td>
               </tr>
             ))}
           </tbody>
