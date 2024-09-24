@@ -31,14 +31,15 @@ const ImageSlider = () => {
         {/* Slide 1 */}
         <div className="relative">
           <img
-            src="/img1.jpg"
+            src="/slider3.webp"
             alt="Slide 1"
             style={{ objectFit: "cover", width: "100%", height: "100vh" }}
           />
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white text-center p-4">
-            <h1 className="text-4xl font-bold mb-4">Innovations in Engineering</h1>
+            <h1 className="text-4xl font-bold mb-4">International Conference on Next Gen Engineering</h1>
             <p className="text-lg">
-              Discover the latest trends and technologies that are shaping the future of engineering and sustainability.
+            International Conference on Next Gen Engineering : Bridging
+            Innovation & Sustainability (ICNGEBIS)
             </p>
           </div>
         </div>
@@ -46,14 +47,15 @@ const ImageSlider = () => {
         {/* Slide 2 */}
         <div className="relative">
           <img
-            src="/img2.jpg"
+            src="/slider2.jpeg"
             alt="Slide 2"
             style={{ objectFit: "cover", width: "100%", height: "100vh" }}
           />
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white text-center p-4">
-            <h1 className="text-4xl font-bold mb-4">Sustainable Development</h1>
+            <h1 className="text-4xl font-bold mb-4">International Conference on Next Gen Engineering</h1>
             <p className="text-lg">
-              Explore how innovations can lead to sustainable solutions for a better tomorrow.
+            International Conference on Next Gen Engineering : Bridging
+            Innovation & Sustainability (ICNGEBIS)
             </p>
           </div>
         </div>
@@ -61,14 +63,15 @@ const ImageSlider = () => {
         {/* Slide 3 */}
         <div className="relative">
           <img
-            src="/img3.jpg"
+            src="/slider1.jpg"
             alt="Slide 3"
             style={{ objectFit: "cover", width: "100%", height: "100vh" }}
           />
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white text-center p-4">
-            <h1 className="text-4xl font-bold mb-4">Global Perspectives</h1>
+            <h1 className="text-4xl font-bold mb-4">International Conference on Next Gen Engineering</h1>
             <p className="text-lg">
-              Join experts from around the world to discuss engineering innovations and their global impact.
+            International Conference on Next Gen Engineering : Bridging
+            Innovation & Sustainability (ICNGEBIS)
             </p>
           </div>
         </div>

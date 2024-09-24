@@ -19,7 +19,7 @@ function App() {
     <div id='home'>
       <Navbar />
       <FullScreenSlider />
-      <CountdownTimer date={new Date('2024-12-31T00:00:00')} />
+      <CountdownTimer date={new Date('2024-09-28T00:00:00')} />
       <WhyChooseUs />
       <AboutEvent />
       <Schedule />
